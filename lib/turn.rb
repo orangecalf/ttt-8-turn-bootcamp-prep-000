@@ -24,6 +24,7 @@ def input_to_index(input)
 end
 
 
-def move(board, index, value = "")
-  
+def move(board, index, value = "X")
+  if (valid_move?(board, index) = true)
+    
   
